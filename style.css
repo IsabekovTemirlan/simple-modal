@@ -1,18 +1,12 @@
 body {
 	margin: 0;
 	padding: 0;
-	display: -webkit-inline-flex;
-	display: -moz-inline-flex;
-	display: -ms-inline-flex;
-	display: -o-inline-flex;
-	display: inline-flex;
-	justify-content: center;
-	align-items: center;
 	background-color: #ccc;
-	width: 100vw;
-	height: 100vh;
 }
-
+section {
+	margin: 10px 0;
+	width: 100vw;
+}
 .modal {
 	width: 400px;
 	height: 300px;
@@ -20,7 +14,9 @@ body {
 	background-color: #fff;
 	display: none;
 	transition: all .4;
+	border-radius: 15px;
 }
+
 .modal__title h1 {
 	text-align: center;
 }
@@ -28,10 +24,31 @@ body {
 	width: 100%;
 	margin: 10px auto;
 }
-.modal__buttons button {
+.modal__buttons button, #show {
 	text-align: center;
 	display: block;
 	width: 100px;
 	margin: 100px auto 10px auto;
 	
 }
+.ttt, .box-container, .box-item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+.box-container {
+		width: 502px;
+		height: 502px;
+		flex-wrap: wrap;
+		background-color: #fff;
+		border: 1px solid #888;
+	}
+	.box-item {
+		width: 165px;
+		height: 165px;
+		background-color: #ccc;
+		border: 1px solid #777;
+		font-size: 130px;
+		color:  #555;
+
+	}
