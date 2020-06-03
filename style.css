@@ -7,18 +7,35 @@ section {
 	margin: 10px 0;
 	width: 100vw;
 }
+#modal__window {
+	position: absolute;
+	display: none;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, .3);
+	margin: 0;
+}
 .modal {
 	width: 400px;
 	height: 300px;
-	margin: 0 auto;
 	background-color: #fff;
 	display: none;
 	transition: all .4;
 	border-radius: 15px;
 }
-
 .modal__title h1 {
 	text-align: center;
+	padding-top: 10px;
+}
+.title {
+	text-align: center;
+	padding-top: 60px;
+	margin-bottom: 70px;
 }
 .modal__buttons {
 	width: 100%;
@@ -28,7 +45,7 @@ section {
 	text-align: center;
 	display: block;
 	width: 100px;
-	margin: 100px auto 10px auto;
+	margin: 10px auto;
 	
 }
 .game, .box-container, .box-item {
