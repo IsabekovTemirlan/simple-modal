@@ -31,7 +31,7 @@ section {
 	margin: 100px auto 10px auto;
 	
 }
-.ttt, .box-container, .box-item {
+.game, .box-container, .box-item {
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -52,3 +52,24 @@ section {
 		color:  #555;
 
 	}
+.game-title{
+	display:block;
+	margin-bottom:30px;
+	font-size: 20px;
+	font-weight:bold;
+	text-align:center}
+#reset-game{
+	display:block;
+	margin:20px auto;
+	border:1px solid #000;
+
+	background-color:#fff;
+	padding:0 10px;
+	cursor:pointer;
+	-webkit-transition:all linear 0.3s;
+	-o-transition:all linear 0.3s;
+	transition:all linear 0.3s
+}
+#reset-game:hover{
+	background-color:#ccc
+}

@@ -24,10 +24,14 @@ showElem(close, 'none', 'block');
 ///////////////////////////////////////////
 
 const field = getEl('field');
+var ceil = document.getElementsByClassName("box-item"),
+	reset = document.getElementById("reset-game"),
+	message = document.getElementById("message"),
 
 let first = true;
 let x_player = [];
 let y_player = [];
+let stepCount = 0
 
 const victory = [
 [0,1,2],
@@ -56,3 +60,19 @@ field.addEventListener('click', (e) => {
 		victory.map( v => (v[0] === x_player[0]) ? console.log('win') : null);
 	}
 });
+for (var i = 0; i < ceil.length; i++) {
+	ceil[i].addEventListener("click", currentStep);
+}
+
+function currentStep() {
+
+}
+
+function changePlayer() {
+
+}
+
+
+
+function checkWin() {
+}
