@@ -73,3 +73,12 @@ section {
 #reset-game:hover{
 	background-color:#ccc
 }
+.box-item:hover{
+	background-color:#ccc
+}
+.box-item.0{
+	background-color:#abfdab
+}
+.box-item.x{
+	background-color:#f99
+}
